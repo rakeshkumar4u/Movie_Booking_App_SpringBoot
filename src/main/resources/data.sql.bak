@@ -1,0 +1,6 @@
+-- data.sql: preload static movies and ticket counts
+
+INSERT INTO MOVIE (movie_name, theatre_name, total_tickets) VALUES ('Inception', 'PVR', 100);
+INSERT INTO MOVIE (movie_name, theatre_name, total_tickets) VALUES ('Inception', 'INOX', 150);
+INSERT INTO MOVIE (movie_name, theatre_name, total_tickets) VALUES ('Interstellar', 'PVR Cinemas', 120);
+INSERT INTO MOVIE (movie_name, theatre_name, total_tickets) VALUES ('Interstellar', 'Carnival Cinemas', 80);
